@@ -1,5 +1,6 @@
 import React from 'react'
 import {Navbar,Container,Nav,NavDropdown,Form,FormControl,Button} from 'react-bootstrap'
+import CartWidget from './CartWidget'
 
 export default function NavBar() {
   return (
@@ -37,6 +38,7 @@ export default function NavBar() {
                         />
                         <Button variant="outline-success">Search</Button>
                     </Form>
+                    <CartWidget/>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
