@@ -38,7 +38,7 @@ export default function NavBar() {
                         />
                         <Button variant="outline-success">Search</Button>
                     </Form>
-                    <CartWidget/>
+                        <Button variant="outline-success"><CartWidget/></Button>               
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
